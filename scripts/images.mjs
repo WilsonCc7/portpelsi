@@ -1,4 +1,5 @@
-// Mengubah PNG mentah di root jadi webp teroptimasi di public/img.
+// Mengubah PNG mentah di raw/ jadi webp teroptimasi di public/img.
+// Foto asli tidak masuk git; hasilnya yang di-commit.
 // Jalankan: npm run images
 import { mkdir, readdir } from "node:fs/promises";
 import path from "node:path";
