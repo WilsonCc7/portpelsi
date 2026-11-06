@@ -48,10 +48,11 @@ const jobs = [
     crop: ig(722, 962),
   },
   {
-    src: "Screenshot 2026-11-06 at 18-55-09 Instagram.png",
+    // Frame video: potong panah carousel kanan, titik bawah, dan progress bar atas.
+    src: "persi.png",
     out: "persi.webp",
-    width: 760,
-    crop: ig(722, 962, 42, 140),
+    width: 650,
+    crop: { left: 0, top: 8, width: 722 - 72, height: 962 - 8 - 55 },
   },
 
   {

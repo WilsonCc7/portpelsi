@@ -62,7 +62,7 @@ export const status = {
     { k: "Brand", v: "can't" },
   ],
   portrait: "/img/persi.webp",
-  portraitAlt: "Alfatik Persi memakai kaos putih cetakan semanggi hijau",
+  portraitAlt: "Alfatik Persi tertawa sambil memegang ponsel di dalam kafe",
 };
 
 export const hobbies = {
