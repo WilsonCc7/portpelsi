@@ -1,0 +1,26 @@
+{
+  "name": "portpelsi",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "images": "node scripts/images.mjs"
+  },
+  "dependencies": {
+    "motion": "^12.23.12",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "sharp": "^0.34.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.2"
+  }
+}

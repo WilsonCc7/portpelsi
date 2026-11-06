@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+build/
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+
+# Foto mentah (PNG besar). Hasil olahan ada di public/img/.
+raw/
+
+.DS_Store
+.env*.local
